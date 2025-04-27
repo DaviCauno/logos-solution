@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build"
+  },
+  "dependencies": {
+    "@strapi/strapi": "^4.16.2",
+    "@strapi/plugin-users-permissions": "^4.16.2",
+    "@strapi/plugin-content-manager": "^4.16.2",
+    "@strapi/plugin-content-type-builder": "^4.16.2",
+    "@strapi/plugin-upload": "^4.16.2",
+    "@strapi/plugin-i18n": "^4.16.2",
+    "sqlite3": "^5.1.6"
+  }
+}
